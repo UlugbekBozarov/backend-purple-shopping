@@ -1,0 +1,66 @@
+2021-08-17 14:11:13.353  INFO 17828 --- [main] c.e.o.OnlineShoppingApplication          : Starting OnlineShoppingApplication using Java 12.0.1 on LAPTOP-GJAOUOO6 with PID 17828 (C:\Users\Ulug'bek\IdeaProjects\online-shopping-bac\target\classes started by Ulug'bek in C:\Users\Ulug'bek\IdeaProjects\online-shopping-bac)
+2021-08-17 14:11:13.362  INFO 17828 --- [main] c.e.o.OnlineShoppingApplication          : No active profile set, falling back to default profiles: default
+2021-08-17 14:11:14.568  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-17 14:11:14.792  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 12 JPA repository interfaces.
+2021-08-17 14:11:15.317  INFO 17828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2ceca2ef' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 14:11:15.323  INFO 17828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 14:11:15.608  INFO 17828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-08-17 14:11:15.622  INFO 17828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-17 14:11:15.623  INFO 17828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-17 14:11:16.001  INFO 17828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-17 14:11:16.002  INFO 17828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2586 ms
+2021-08-17 14:11:16.125  INFO 17828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-17 14:11:16.629  INFO 17828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-17 14:11:16.684  INFO 17828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-17 14:11:16.749  INFO 17828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-08-17 14:11:16.910  INFO 17828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-17 14:11:17.030  INFO 17828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-17 14:11:18.437  INFO 17828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-17 14:11:18.444  INFO 17828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-17 14:11:18.921  WARN 17828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-17 14:11:19.157  INFO 17828 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-17 14:11:19.294  INFO 17828 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d8751de, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a1dd8eb, org.springframework.security.web.header.HeaderWriterFilter@c194c4e, org.springframework.security.web.authentication.logout.LogoutFilter@54d9b23a, com.example.online_shopping.security.JWTAuthenticationFilter@6e21c6ed, com.example.online_shopping.security.JWTAuthorizationFilter@75c30a4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e1bfe66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40625ac6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@360e4235, org.springframework.security.web.session.SessionManagementFilter@3ba50851, org.springframework.security.web.access.ExceptionTranslationFilter@76ffd052, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30f99ca1]
+2021-08-17 14:11:19.387  INFO 17828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-17 14:11:19.551  INFO 17828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-08-17 14:11:19.552  INFO 17828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-17 14:11:19.566  INFO 17828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-17 14:11:19.611  INFO 17828 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 14:11:19.754  INFO 17828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getProductUsingGET_1
+2021-08-17 14:11:19.765  INFO 17828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sendMessageUsingPOST_1
+2021-08-17 14:11:19.798  INFO 17828 --- [main] c.e.o.OnlineShoppingApplication          : Started OnlineShoppingApplication in 7.148 seconds (JVM running for 8.354)
+2021-08-17 14:11:52.589  INFO 17828 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-17 14:11:52.591  INFO 17828 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-17 14:11:52.592  INFO 17828 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-17 14:36:52.167  INFO 20336 --- [main] c.e.o.OnlineShoppingApplication          : Starting OnlineShoppingApplication using Java 12.0.1 on LAPTOP-GJAOUOO6 with PID 20336 (C:\Users\Ulug'bek\IdeaProjects\online-shopping-bac\target\classes started by Ulug'bek in C:\Users\Ulug'bek\IdeaProjects\online-shopping-bac)
+2021-08-17 14:36:52.171  INFO 20336 --- [main] c.e.o.OnlineShoppingApplication          : No active profile set, falling back to default profiles: default
+2021-08-17 14:36:53.357  INFO 20336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-17 14:36:53.479  INFO 20336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 12 JPA repository interfaces.
+2021-08-17 14:36:53.803  INFO 20336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7df28f1' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 14:36:53.807  INFO 20336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 14:36:54.045  INFO 20336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-08-17 14:36:54.054  INFO 20336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-17 14:36:54.055  INFO 20336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-17 14:36:54.205  INFO 20336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-17 14:36:54.206  INFO 20336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2021-08-17 14:36:54.386  INFO 20336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-17 14:36:54.692  INFO 20336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-17 14:36:54.869  INFO 20336 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-17 14:36:55.260  INFO 20336 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-08-17 14:36:55.910  INFO 20336 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-17 14:36:56.180  INFO 20336 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-17 14:36:58.373  INFO 20336 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-17 14:36:58.380  INFO 20336 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-17 14:36:58.910  WARN 20336 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-17 14:36:59.160  INFO 20336 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-17 14:36:59.273  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b6a4da7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ae07dbd, org.springframework.security.web.header.HeaderWriterFilter@6d4df1d2, org.springframework.security.web.authentication.logout.LogoutFilter@58cd6088, com.example.online_shopping.security.JWTAuthenticationFilter@75b6bd41, com.example.online_shopping.security.JWTAuthorizationFilter@21457b14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47f8374, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bd39edc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e484bd, org.springframework.security.web.session.SessionManagementFilter@34e7cde3, org.springframework.security.web.access.ExceptionTranslationFilter@57c7ec30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@402fdef1]
+2021-08-17 14:36:59.349  INFO 20336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-17 14:36:59.525  INFO 20336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-08-17 14:36:59.526  INFO 20336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-17 14:36:59.539  INFO 20336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-17 14:36:59.573  INFO 20336 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 14:36:59.706  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getProductUsingGET_1
+2021-08-17 14:36:59.715  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sendMessageUsingPOST_1
+2021-08-17 14:36:59.748  INFO 20336 --- [main] c.e.o.OnlineShoppingApplication          : Started OnlineShoppingApplication in 7.977 seconds (JVM running for 8.953)
+2021-08-17 14:37:03.280  INFO 20336 --- [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-17 14:37:03.281  INFO 20336 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-17 14:37:03.282  INFO 20336 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
